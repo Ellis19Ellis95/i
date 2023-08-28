@@ -40,6 +40,21 @@ footer {
 
 }
 
+.footer-contacts-item:first-child {
+    margin-bottom: 8px;
+}
+
+
+.footer-menu-link {
+    color: #ffff;
+}
+
+.footer-list {
+    display: flex;
+    margin: 0;
+    padding-left: 0px;
+    gap: 16px;
+}
 .footer-logo-svg {
     display: flex;
     margin-right: auto;
@@ -51,12 +66,7 @@ footer {
    
 }
 
-.footer-list {
-    display: flex;
-    margin: 0;
-    padding-left: 0px;
-    gap: 16px;
-}
+
 
 .footer-item-svg {
     fill: #ffff
@@ -84,9 +94,7 @@ footer {
 }
 
 
-.footer-menu-link {
-    color: #ffff;
-}
+
 
 .footer-geo {
     margin-bottom: 35px;
@@ -117,9 +125,7 @@ footer {
     
     
 }
-.footer-contacts-item:first-child {
-    margin-bottom: 8px;
-}
+
 
 .footer-contacts-link {
     color: #ffff;
@@ -146,7 +152,17 @@ letter-spacing: 0.18em;
     text-decoration: underline;
 }
 
+.footer-menu-list {
+        gap: 16px;
+    }
 
+    .footer-geo {
+        margin-bottom: 64px;
+    }
+
+    .footer-geo-list {
+    gap: 24px;
+}
 
 @media screen and (min-width:375px ) {
     .footer-div {
@@ -200,17 +216,7 @@ letter-spacing: 0.18em;
         padding: 8px 8px;
     }
     
-    .footer-menu-list {
-        gap: 16px;
-    }
-
-    .footer-geo {
-        margin-bottom: 64px;
-    }
-
-    .footer-geo-list {
-    gap: 24px;
-}
+    
 
 
 .hiddan-mail {

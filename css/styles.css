@@ -92,14 +92,14 @@ footer {
     margin-bottom: 35px;
 }
 
-.footer-adress-list {
+.footer-geo-list {
     color: #ffff;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.footer-adress-link {
+.footer-geo-link {
     color: #ffff;
 
 }
@@ -129,9 +129,9 @@ footer {
 }
 
 
-.footer-privacy {
-    opacity: 0.6;
-    color: #ffff;
+.footer-agreement {
+opacity: 0.6;
+color: #ffff;
 text-align: center;
 font-family: Roboto;
 font-size: 12px;
@@ -141,7 +141,7 @@ line-height: 1.2; /* 116.667% */
 letter-spacing: 0.18em;
 }
 
-.footer-privacy-polisy {
+.footer-agreement-link {
     color: #ffff;
     text-decoration: underline;
 }

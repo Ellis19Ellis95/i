@@ -88,7 +88,7 @@ footer {
     color: #ffff;
 }
 
-.footer-adress {
+.footer-geo {
     margin-bottom: 35px;
 }
 
@@ -204,11 +204,11 @@ letter-spacing: 0.18em;
         gap: 16px;
     }
 
-    .footer-adress {
+    .footer-geo {
         margin-bottom: 64px;
     }
 
-    .footer-adress-list {
+    .footer-geo-list {
     gap: 24px;
 }
 
